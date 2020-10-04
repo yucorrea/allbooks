@@ -27,7 +27,7 @@
 
 ---
 
-## How to install 
+## :file_folder: How to install 
 
 ```bash
 
@@ -50,4 +50,4 @@
 ---
 
 
-Developed :coffee: by Yuri Corrêa
+Made with :coffee: by Yuri Corrêa
