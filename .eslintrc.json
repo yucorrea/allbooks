@@ -22,28 +22,41 @@
     "plugins": [
         "react",
         "@typescript-eslint",
-        "react-hooks",
-        "prettier"
+        "prettier",
+        "react-hooks"
     ],
     "rules": {
-        "prettier/prettier": "error",
-        "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn",
-        "no-use-before-define": "off",
-        "react/jsx-filename-extension": [1, {"extensions": [".tsx", ".ts"]}],
-        "import/extensions": [
-            "error",
-            {
-                "ignorePackages": {
-                    "ts": "never",
-                    "tsx": "never"
-                }
-            }
-        ]
+      "prettier/prettier": "error",
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "import/prefer-default-export": "off",
+      "react/prop-types": "off",
+      "no-param-reassign": "off",
+      "camelcase": "off",
+      "arrow-parens": "off",
+      "no-shadow": "off",
+      "no-nested-ternary": "off",
+      "no-use-before-define": "off",
+      "react/jsx-wrap-multilines":"off",
+      "class-methods-use-this": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "no-unused-expressions": "off",
+      "react/jsx-props-no-spreading": "off",
+      "react/jsx-filename-extension": [1, {"extensions": [".tsx", ".tsx"]}],
+      "import/extensions": [
+        "error",
+        "ignorePackages",
+        {
+          "tsx": "never",
+          "ts": "never"
+        }
+      ]
     },
     "settings": {
-        "import/resolver": {
-            "typescript": {}
-        }
+      "import/resolver": {
+        "typescript": {}
+      }
     }
-}
+  
+  }
+  

@@ -14,17 +14,15 @@ export const Image = styled.Image`
 export const Title = styled.Text`
   width: 150px;
   font-size: 12px;
-  font-family: "Montserrat-Regular";
-  color: #F2F2F2;
+  font-family: 'Montserrat-Regular';
+  color: #f2f2f2;
   margin-top: 8px;
 `;
 
 export const Price = styled.Text`
   width: 150px;
   font-size: 16px;
-  font-family: "Montserrat-SemiBold";
-  color: #F2F2F2;
+  font-family: 'Montserrat-SemiBold';
+  color: #f2f2f2;
   margin-top: 8px;
 `;
-
-

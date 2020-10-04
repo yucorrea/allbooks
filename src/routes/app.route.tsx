@@ -1,31 +1,32 @@
 import React from 'react';
 
-import { View } from "react-native";
+import { View } from 'react-native';
 
-import Home from "../pages/Home";
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import Home from '../pages/Home';
 
-import CustomDrawer from "../components/CustomDrawer"
-import { createDrawerNavigator } from "@react-navigation/drawer";
+import CustomDrawer from '../components/CustomDrawer';
 
-import DrawerAvatar from "../components/DrawerAvatar"
-const {Navigator, Screen} = createDrawerNavigator();
+import DrawerAvatar from '../components/DrawerAvatar';
 
-const DrawerRoutes : React.FC = () => (
-  <Navigator 
+const { Navigator, Screen } = createDrawerNavigator();
+
+const DrawerRoutes: React.FC = () => (
+  <Navigator
     drawerContentOptions={{
-      activeTintColor: "#00030D"
+      activeTintColor: '#00030D',
     }}
-  screenOptions={() => ({
-    drawerIcon: () => <DrawerAvatar />
-  })}
-    drawerContent ={ ({...rest}) => <CustomDrawer {...rest} />}
+    screenOptions={() => ({
+      drawerIcon: () => <DrawerAvatar />,
+    })}
+    drawerContent={({ ...rest }) => <CustomDrawer {...rest} />}
   >
-    <Screen name="Todos os livros" component={Home}/>
-    <Screen name="Ação" component={View}/>
-    <Screen name="Romance" component={View}/>
-    <Screen name="Drama" component={View}/>
-    <Screen name="Terror" component={View}/>
-    <Screen name="Suspense" component={View}/>
+    <Screen name="Todos os livros" component={Home} />
+    <Screen name="Ação" component={View} />
+    <Screen name="Romance" component={View} />
+    <Screen name="Drama" component={View} />
+    <Screen name="Terror" component={View} />
+    <Screen name="Suspense" component={View} />
   </Navigator>
 );
 

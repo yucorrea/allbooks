@@ -5,5 +5,4 @@ export const Image = styled.View`
   width: 44px;
   border-radius: 22px;
   background: #ccc;
-
 `;

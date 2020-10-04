@@ -1,8 +1,7 @@
 import styled from 'styled-components/native';
 
-
 export const List = styled.ScrollView.attrs({
-  horizontal: true
+  horizontal: true,
 })`
   padding: 8px 0px;
 `;
@@ -21,8 +20,7 @@ export const Image = styled.Image`
 export const Title = styled.Text`
   width: 115px;
   font-size: 12px;
-  font-family: "Montserrat-Regular";
-  color: #F2F2F2;
+  font-family: 'Montserrat-Regular';
+  color: #f2f2f2;
   margin-top: 8px;
 `;
-

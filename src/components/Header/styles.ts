@@ -7,17 +7,13 @@ export const Container = styled.View`
   padding: 16px;
 `;
 
-export const Menu = styled.TouchableOpacity`
+export const Menu = styled.TouchableOpacity``;
 
-`;
-
-export const Image = styled.Image`
-
-`;
+export const Image = styled.Image``;
 
 export const HeaderTitle = styled.Text`
   font-size: 16px;
-  font-family: "Montserrat-SemiBold";
+  font-family: 'Montserrat-SemiBold';
   text-transform: uppercase;
 `;
 
